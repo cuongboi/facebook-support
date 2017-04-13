@@ -1,22 +1,22 @@
 {
-  "name": "facebook-support",
-  "description": "",
+  "name": "cuongbot",
+  "version": "1.0.0",
+  "description": "Cuong Bot",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "env": {
-    "FACEBOOK_APP_ID": {
-      "required": true
-    },
-    "FACEBOOK_SECRET": {
-      "required": true
-    }
-  },
-  "formation": {
-  },
-  "addons": [
-
+  "keywords": [
+    "cuongbot"
   ],
-  "buildpacks": [
-
-  ]
+  "author": "C-selfie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "http": "^0.0.0",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {}
 }
