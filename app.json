@@ -1,0 +1,22 @@
+{
+  "name": "facebook-support",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "FACEBOOK_APP_ID": {
+      "required": true
+    },
+    "FACEBOOK_SECRET": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
